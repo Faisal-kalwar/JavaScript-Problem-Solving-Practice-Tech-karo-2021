@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cornflowerblue;
+    flex-direction: column;
+    color: cornsilk;
+}
+h1{
+    font-size: 4rem;
+}
+input{
+    width: 12rem;
+    height: 30px;
+    font-size: large;
+    font-weight: bold;
+    outline: none;
+    margin: 10px;
+}
+button{
+    transition-duration: 3s;
+    padding: 10px 1.5rem;
+    font-weight: bold;
+    background-color: rgb(98, 11, 28);
+    border: none;
+    color: wheat;
+    font-size: 1.2rem;
+}
+button:hover{
+    background-color: rgb(32, 8, 4);
+}

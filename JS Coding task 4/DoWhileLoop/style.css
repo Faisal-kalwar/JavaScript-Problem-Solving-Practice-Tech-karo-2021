@@ -1,0 +1,25 @@
+body{
+    background-color: slategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+h1{
+    font-size: 5rem;
+    color: snow;
+}
+button{
+    padding: 10px 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(202, 100, 11);
+    color:snow;
+    margin: 10px;
+}
+button:hover{
+    background-color: rgb(126, 60, 2);
+}

@@ -19,6 +19,9 @@ div{
 h1{
     text-transform: uppercase;
 }
+h2{
+    text-transform: uppercase;
+}
 h3{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
@@ -30,6 +33,7 @@ input{
     font-size: 1.2rem;
     margin: 10px;
     outline: none;
+    border-radius: 10px;
 }
 button{
     padding: 10px 3rem;
